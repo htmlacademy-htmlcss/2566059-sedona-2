@@ -2,7 +2,7 @@
 
 * Студент: [Ярослав Башков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2566059).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
-
+* Сайт: [Мой проект Седона](https://borness.github.io/2566059-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
