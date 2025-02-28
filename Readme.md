@@ -2,7 +2,12 @@
 
 * Студент: [Ярослав Башков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2566059).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
-* Сайт: [Мой проект Седона](https://borness.github.io/2566059-sedona-2/)
+* Сайт: [Мой проект Седона](https://borness.github.io/2566059-sedona-2/).
+* Обзор макета можно скачать по ссылке: (https://disk.yandex.ru/d/z7euXlqkwLNrMg).
+* Макет можно посмотреть по ссылке: (https://www.figma.com/file/ttNcJqi4MtvILk6rlovwid).
+
+
+<img width="769" alt="заставка макета Седона" src="https://up.htmlacademy.ru/assets/intensives/htmlcss-individual/2/projects/sedona/image.jpg?v=202502081021">
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
