@@ -19,7 +19,6 @@ html {
 }
 
 img {
-  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -263,6 +262,8 @@ navigation-user-favourite:active {
 .hero-welcome-logo {
   display: block;
   margin: 0 auto;
+  padding-top:51px;
+  padding-bottom:82px;
 }
 
 .reasons-title-text{
@@ -290,9 +291,22 @@ navigation-user-favourite:active {
   display: flex;
   flex-direction: column;
   max-width: 680px;
-  padding: 69px 0;
   margin: 0 auto;
   align-items: center;
+  padding:69px 0 90px;
+}
+
+.services-slogan{
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+  margin: 0 auto;
+  align-items: center;
+  padding:64px 0;
+}
+
+.services-slogan .reasons-title-text{
+  margin-bottom: 20px;
 }
 
 .advantages-list {
@@ -321,9 +335,7 @@ navigation-user-favourite:active {
   padding: 100px 85px;
 }
 
-.wide .advantages-item::after{
-  background-color: #FFFFFF4D;
-}
+
 
 .item-container {
   display: flex;
@@ -359,6 +371,10 @@ navigation-user-favourite:active {
   left: 0;
   right: 0;
   display: block;
+}
+
+.wide .advantages-item-title::after{
+  background-color: #FFFFFF4D;
 }
 
 .wide{
@@ -542,7 +558,7 @@ navigation-user-favourite:active {
 }
 
 .subscribe {
-  background-color: #63605f;
+  background-color: #82b3d3;
   background-image: url("../img/background-subscribe.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -574,7 +590,7 @@ navigation-user-favourite:active {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin:0;
+  margin-bottom: 20px;
 }
 
 .subscribe-description {
@@ -590,12 +606,15 @@ navigation-user-favourite:active {
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+  margin:0;
 }
 
 .subscribe-form{
   margin-top: 54px;
   display: flex;
 }
+
+
 
 .subscribe-form-input {
   font-family: inherit;
@@ -604,6 +623,8 @@ navigation-user-favourite:active {
   padding: 0 20px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border: 0;
+  background-color: #F2F2F2;
 }
 
 .subscribe-form-button{
@@ -732,8 +753,6 @@ navigation-user-favourite:active {
 }
 
 .copyright-logo {
-  width: 115px;
-  height: 33px;
   fill: #000000;
 }
 
@@ -891,7 +910,7 @@ navigation-user-favourite:active {
 .hotels-wrapper{
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .hotels-found{
@@ -911,7 +930,7 @@ navigation-user-favourite:active {
   margin-right: 70px;
   min-height: 48px;
   appearance: none;
-  padding: 14px 20px;
+  padding: 12px 20px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
   background: transparent url("../img/select.svg")  no-repeat right 20px center;
@@ -1090,6 +1109,7 @@ navigation-user-favourite:active {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 1fr auto;
   gap: 16px 20px;
+  border-radius: 4px;
 }
 
 .hotels-list{
@@ -1111,6 +1131,11 @@ navigation-user-favourite:active {
   text-transform: uppercase;
   color: #333333;
   background-color: #F2F2F2;
+}
+
+.pagination{
+  margin-bottom: 35px;
+
 }
 
 .pagination-link{
@@ -1266,7 +1291,7 @@ navigation-user-favourite:active {
 }
 
 .control-label {
-  margin-left: 36px;
+  margin-left: 35px;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark {
@@ -1358,6 +1383,7 @@ navigation-user-favourite:active {
   background-color: transparent;
   border: none;
   padding: 8px 57px;
+  border-radius: 4px;
 }
 
 .filter-reset:hover {
@@ -1414,6 +1440,7 @@ navigation-user-favourite:active {
   position: relative;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
+  margin-top:8px
 }
 
 .control-interval input{
@@ -1427,6 +1454,7 @@ navigation-user-favourite:active {
   border-radius: 4px 0 0 4px;
   padding: 12px 0 12px 20px;
   margin-right: 2px;
+  font-family: PT Sans, sans-serif;
 
 }
 
@@ -1536,7 +1564,7 @@ control-interval:hover {
 
 
 .hotels{
-  padding: 50px 0 60px;
+  padding: 30px 0 40px;
 }
 
 .hotels-item-link-img{
@@ -1881,8 +1909,8 @@ color: #FF5757;
   border-radius: 10px;
 }
 .modal-button{
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
   background-color:#83B3D3;
