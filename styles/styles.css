@@ -909,7 +909,7 @@ navigation-user-favourite:active {
 .hotels-wrapper{
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .hotels-found{
@@ -1240,6 +1240,7 @@ navigation-user-favourite:active {
 }
 
 .filter-group-title {
+  padding-left:0;
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 32px;
@@ -1289,7 +1290,7 @@ navigation-user-favourite:active {
 }
 
 .control-label {
-  margin-left: 35px;
+  margin-left: 36px;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark {
@@ -1562,7 +1563,7 @@ control-interval:hover {
 
 
 .hotels{
-  padding: 33px 0 38px;
+  padding: 32px 0 38px;
 }
 
 .hotels-item-link-img{
