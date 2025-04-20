@@ -1707,8 +1707,8 @@ control-interval:hover {
 
 .booking-form {
   display: grid;
-  grid-template-columns: 247px 240px;
-  column-gap: 90px;
+  grid-template-columns: 247px 242px;
+  column-gap: 88px;
 }
 
 .booking-form .field-group {
