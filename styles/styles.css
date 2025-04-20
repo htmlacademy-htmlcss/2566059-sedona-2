@@ -1944,6 +1944,10 @@ color: #FF5757;
   background-color: #68A2CA;
 }
 
+.modal-button:disabled{
+  background-color: #E5E5E5;
+}
+
 .control-range:active{
   outline: 2px solid #83B3D3;
 }
