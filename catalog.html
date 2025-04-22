@@ -114,11 +114,11 @@
                 <legend class="filter-group-title">Стоимость, ₽:</legend>
                 <div class="control-interval-container">
                   <label class="control-interval control-min">
-                    <input type="number" min="0" max="9000" name="min-interval" value="0">
+                    <input  required type="number" min="0" max="9000" name="min-interval" value="0">
                     <span>от</span>
                   </label>
                   <label class="control-interval control-max">
-                    <input  type="number" min="0" max="9000" name="max-interval" value="9000">
+                    <input  required type="number" min="0" max="9000" name="max-interval" value="9000">
                     <span>до</span>
                   </label>
                 </div>
@@ -155,7 +155,7 @@
           <div class="hotels-sorting">
             <ul class="hotels-sorting-all">
               <li class="hotels-sorting-table">
-                <a class="hotel-sort  tabl-view view-now" href="#"><span class="visually-hidden">Таблицей</span></a>
+                <a class="hotel-sort  table-view view-now" href="#"><span class="visually-hidden">Таблицей</span></a>
               </li>
               <li class="hotels-sorting-card">
                 <a class="hotel-sort card-view" href="#"><span class="visually-hidden">Карточками</span></a>
@@ -183,7 +183,7 @@
               <p class="four-star products-card-stars">
                 <span class="visually-hidden">рейтинг четыре звезды</span>
                 </p>
-                <p class="hotels-item-raiting">Рейтинг:
+                <p class="hotels-item-rating">Рейтинг:
                   <span class="rating-count">8,5</span>
                 </p>
           </li>
@@ -197,13 +197,13 @@
               <a class="hotels-item-button-details button" href="#">
                 подробнее
               </a>
-              <button class="hotels-item-favorites-button  unfavourite-button button" type="submit">
+              <button class="hotels-item-favorites-button  unfavorite-button button" type="submit">
                 в избранном
               </button>
               <p class="four-star products-card-stars">
                 <span class="visually-hidden">рейтинг четыре звезды</span>
               </p>
-              <p class="hotels-item-raiting">Рейтинг:
+              <p class="hotels-item-rating">Рейтинг:
                 <span class="rating-count">9,2</span>
               </p>
           </li>
@@ -225,7 +225,7 @@
               <p class="three-star products-card-stars">
                 <span class="visually-hidden">рейтинг три звезды</span>
               </p>
-              <p class="hotels-item-raiting">Рейтинг:
+              <p class="hotels-item-rating">Рейтинг:
                  <span class="rating-count">6,9</span>
                 </p>
           </li>
@@ -247,7 +247,7 @@
               <p class="two-star products-card-stars">
                 <span class="visually-hidden">рейтинг две звезды</span>
               </p>
-              <p class="hotels-item-raiting">Рейтинг:
+              <p class="hotels-item-rating">Рейтинг:
                 <span class="rating-count">5,0</span>
               </p>
           </li>
@@ -295,18 +295,19 @@
       </section>
       <section class="catalog-subscribe ">
         <div class="content-container subscribe-container">
-            <h2 class="catalog-subscribe__title">
-              Подпишитесь на рассылку
-            </h2>
-            <p class="catalog-subscribe__description">
-              Только полезная информация и никакого спама,<br>честное бойскаутское!
-            </p>
-            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input class="subscribe-form-input" type="email" name="email-subscribe" placeholder="Ваш e-mail">
-              <button class="subscribe-form-button" type="submit">
-                Подписаться
-              </button>
-            </form>
+          <h2 class="catalog-subscribe__title">
+            Подпишитесь на рассылку
+          </h2>
+          <p class="subscribe-description">
+            Только полезная информация и никакого спама,<br>честное бойскаутское!
+          </p>
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="email" class="visually-hidden">Ваш e-mail</label>
+            <input class="subscribe-form-input"  required type="email" id="email" name="email-subscribe" placeholder="Ваш e-mail">
+            <button class="subscribe-form-button" type="submit">
+              Подписаться
+            </button>
+          </form>
         </div>
       </section>
     </main>

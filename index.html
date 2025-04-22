@@ -164,19 +164,20 @@
       </section>
       <section class="subscribe">
         <div class="content-container subscribe-container">
-            <h2 class="subscribe-title">
-              Подпишитесь на рассылку
-            </h2>
-            <p class="subscribe-description">
-              Только полезная информация и никакого спама,<br>честное бойскаутское!
-            </p>
-            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input class="subscribe-form-input" type="email" name="email-subscribe" placeholder="Ваш e-mail">
-              <button class="subscribe-form-button" type="submit">
-                Подписаться
-              </button>
-            </form>
-       </div>
+          <h2 class="subscribe-title">
+            Подпишитесь на рассылку
+          </h2>
+          <p class="subscribe-description">
+            Только полезная информация и никакого спама,<br>честное бойскаутское!
+          </p>
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="email" class="visually-hidden">Ваш e-mail</label>
+            <input class="subscribe-form-input"  required type="email" id="email" name="email-subscribe" placeholder="Ваш e-mail">
+            <button class="subscribe-form-button" type="submit">
+              Подписаться
+            </button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
@@ -290,9 +291,8 @@
               </svg>
             </button>
           </div>
-          <a class="modal-button search-result button-blue" href="#">Найти</a>
+          <button type="submit" class="modal-button search-result button-blue">Найти</button>
         </form>
-
       </section>
     </div>
   </div>
